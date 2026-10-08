@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bg6" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#fffbeb"/>
+      <stop offset="100%" stop-color="#f5ede4"/>
+    </radialGradient>
+    <linearGradient id="bun6" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="40%" stop-color="#d97706"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </linearGradient>
+    <linearGradient id="sausage" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e11d48"/>
+      <stop offset="100%" stop-color="#9f1239"/>
+    </linearGradient>
+    <filter id="shadow6" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#78350f" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg6)"/>
+  <circle cx="300" cy="300" r="210" fill="#fff" opacity="0.6"/>
+  <g filter="url(#shadow6)">
+    <!-- Golden hotdog bun -->
+    <rect x="170" y="220" width="260" height="150" rx="75" fill="url(#bun6)"/>
+    <ellipse cx="300" cy="245" rx="90" ry="20" fill="#fef3c7" opacity="0.45"/>
+    <!-- Smoked Sausage peeking in center -->
+    <rect x="150" y="270" width="300" height="48" rx="24" fill="url(#sausage)"/>
+    <!-- Mustard / Mayo zig-zag drizzle -->
+    <path d="M190 295 Q 220 270 250 295 T 310 295 T 370 295 T 410 295" stroke="#fef08a" stroke-width="10" stroke-linecap="round" fill="none"/>
+    <!-- Parsley specks -->
+    <circle cx="230" cy="265" r="3" fill="#15803d"/>
+    <circle cx="290" cy="255" r="4" fill="#15803d"/>
+    <circle cx="350" cy="265" r="3" fill="#15803d"/>
+    <circle cx="260" cy="325" r="3" fill="#15803d"/>
+    <circle cx="320" cy="330" r="4" fill="#15803d"/>
+  </g>
+  <text x="300" y="475" text-anchor="middle" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="28" font-weight="700" fill="#78350f">Roti Sosis</text>
+  <text x="300" y="510" text-anchor="middle" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="16" font-weight="600" fill="#b45309" letter-spacing="3">SAVORY &amp; DELICIOUS</text>
+</svg>
+
